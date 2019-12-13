@@ -1,0 +1,92 @@
+.App {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.add-sentence {
+  font-family: "Courier New", Courier, monospace;
+  float: left;
+}
+
+#input {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#input {
+  width: 400px;
+}
+
+table {
+  font-family: "Courier New", Courier, monospace;
+}
+
+th,
+td {
+  border-bottom: 1px solid grey;
+  padding: 30px;
+  text-align: center;
+}
+
+.inputs {
+  margin: 10px;
+  padding: 1px;
+  display: flex;
+  font-family: "Courier New", Courier, monospace;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.InputForm {
+  margin: 10px;
+  padding: 50px;
+  border: 2px solid #61dafb;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.ToxicTable {
+  margin: 10px;
+  padding: 5px;
+  border: 2px solid #61dafb;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#check {
+  font-weight: bold;
+  text-align: center;
+}
+
+#view {
+  text-align: center;
+  width: 300px;
+}
+
+.toxic-form {
+  margin: 10px;
+  padding: 50px;
+  border: 2px solid #61dafb;
+  border-radius: 5px;
+  background-position: initial;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#show-sentence {
+  font-weight: bolder;
+  font-size: 20px;
+  margin: auto;
+  width: auto;
+}
+
+button {
+  margin-top: 10px;
+}
+
+#emoji {
+  min-width: 120px;
+}
